@@ -1,0 +1,22 @@
+
+Chayanis Techalertumpai: 404798097
+Galen Wong: 104939937
+
+## Work Division
+
+Chayanis: 
+- Socket binding, get domain to IP translation
+- Handwave (4-way handshake) with timeout
+- File transmission procedure (stop-and-wait)
+- Timeout retransmit (stop-and-wait)
+- Logger implementation
+- Writing to files
+
+Galen:
+- Handshake procedure
+- A server side Connection class objection for file management
+- Pipelining with client side buffer cwnd (no loss)
+- A Timer class for keeping track of timeout
+- Congestion Avoidance and Slow Start 
+- Fast Retransmit and Fast Recovery
+- Edge case signal handling 
